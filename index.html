@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <script src="assets/script.js" defer></script>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="colums">
+                <div class="column is-half is-offset-one-quarter">
+                    <div class="card has-text-centered">
+                        <header class="card-header">
+                            <p class="card-header-title ">
+                                Ping Pong Score Keeper
+                            </p>
+                        </header>
+                        <div class="card-image">
+                            <figure class="image is-3by2">
+                                <img src="file:///Users/mithilanchan/Desktop/WEB/Score_Keeper/assets/images/pingpong.jpeg" alt="Ping Pong i   mage">
+                            </figure>
+                        </div>
+
+                        <div class="content">
+                            <h1 class="title is-1"><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+                            <p class="subtitle">Use the button below to count scores</p>
+                            <p class="has-text-success is-small" id="winner"></p>
+                            <label for="winningScore" class="label is-large is-inline">WinningScore:-</label>
+                            <div class="select is-rounded ">
+                                <select name="" id="winningScore">
+                                <option value="11">11</option>
+                                <option value="10">10</option>
+                                <option value="9">9</option>
+                                <option value="8">8</option>
+                                <option value="7">7</option>
+                                <option value="6">6</option>
+                                <option value="5">5</option>
+                                <option value="4">4</option>
+                                <option value="3">3</option>
+                            </select>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <button class="is-primary card-footer-item button is-large" id="player1">+1 Player One</button>
+                            <button class="is-info card-footer-item button is-large" id="player2">+1 Player Two</button>
+                            <button class="is-danger card-footer-item button is-large" id="reset">Reset</button>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
